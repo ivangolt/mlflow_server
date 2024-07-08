@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mlflow-server"
+version = "0.1.0"
+description = ""
+authors = ["ivan golt <102701882+ivangolt@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "mlflow_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mlflow = "^2.14.2"
+polars = "^1.1.0"
+scikit-learn = "^1.5.1"
+catboost = "^1.2.5"
+nltk = "^3.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
