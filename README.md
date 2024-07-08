@@ -21,7 +21,7 @@ Before starting our experiment we need to start our services by running command
 This will start all our services, after all service started there is several things to do.
 First, we need to create our bucket storage by visiting http://localhost:9000 , use credential defined on docker-compose.yaml to login. Create bucket with name mlflow.
 
-![](../docs/minio_bucket.png)
+![](https://github.com/ivangolt/mlflow_server/blob/main/docs/minio_bucket.png)
 
 Access MLflow UI by visiting http://localhost:5000
 
@@ -56,15 +56,15 @@ Then we start mlflow run:
 `...`
 In mlflow we have two running 1) catboost and 2) logistic regression:
 
-![](../docs/mlflow_experiments.png)
+![](https://github.com/ivangolt/mlflow_server/blob/main/docs/mlflow_experiments.png)
 
 There we can compare metrics of models
 
-![](../docs/compare_models.png)
+![](https://github.com/ivangolt/mlflow_server/blob/main/docs/compare_models.png)
 
 After running experimnets model and metrics artifacts upload to s3 storage
 
-![](../docs/mlflow_minio.png)
+![](https://github.com/ivangolt/mlflow_server/blob/main/docs/mlflow_minio.png)
 
 
 Full code of task in [mlflow.ipynb](../code/mlflow.ipynb)
